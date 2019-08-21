@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS3根据渐变序列猜颜色游戏DEMO演示</title>
+
+
+
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+  <div id="points">
+    <span id="guessed">0</span> / <span id="total">0<span>
+  </div>
+  
+  
+  <div class="center">
+    <h1>Color Sequence Scheme</h1>
+    <div class="boxes">
+      <div class="color-box" id="box-1"></div>
+      <div class="color-box" id="box-2"></div>
+      <div class="color-box" id="box-3">
+        <div id="correct-color"></div>
+        <div id="picked-color"></div>
+      </div>
+    </div>
+   
+   
+    <h2>Which color comes next?</h2>
+    <div class="boxes mini">
+      <div class="color-box" id="color-0" role="button" data-value="0"></div>
+      <div class="color-box" id="color-1" role="button" data-value="1"></div>
+      <div class="color-box" id="color-2" role="button" data-value="2"></div>
+      <div class="color-box" id="color-3" role="button" data-value="3"></div>
+    </div>
+  </div>
+
+  <div id="scrim">
+    <div class="center">
+      <h2 id="correct">You picked the right&nbsp;color!</h2>
+      <h2 id="incorrect">Oh no! That was not the right&nbsp;color!</h2>
+      <button>Click here to play again</button>
+    </div>
+  </div>
+
+  <script src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
